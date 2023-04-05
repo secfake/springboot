@@ -1,0 +1,24 @@
+.showform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.hideform {
+  display: none;
+}
+  label {
+    margin-top: 10px;
+  }
+  
+  input {
+    padding: 5px;
+    margin-left: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+ img{
+  width: 300px;
+  height: auto;
+ }
