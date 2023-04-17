@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+</head>
+<body>
+<h1>Danh sách nhà tuyển dụng</h1>
+<ul th:each="empl:${empls}">
+    <li th:text="|Employer: ${empl.name}|"></li>
+    <li th:text="|Email: ${empl.email}|"></li>
+    <li th:text="|Phone: ${empl.phone}|"></li>
+</ul>
+</body>
+</html>
